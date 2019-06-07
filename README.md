@@ -1,3 +1,3 @@
-# NNowledge: simplified NMT with a dumb name
+# IT-IST's submission to SIGMORPHON 2019 Task 1
 
-This is a divergent fork of OpenNMT-py intended for use in DeepSPIN's submission to the SIGMORPHON 2019 shared task. OpenNMT-py modules that do not spark joy will be removed with extreme prejudice.
+This is a divergent fork of OpenNMT-py used for DeepSPIN's submission to the SIGMORPHON 2019 shared task.
