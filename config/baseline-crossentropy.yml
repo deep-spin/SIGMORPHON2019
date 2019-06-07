@@ -1,0 +1,19 @@
+global_attention_function: softmax
+loss: xent
+
+world_size: 1
+gpu_ranks: 0
+
+brnn: true
+rnn_size: 200
+word_vec_size: 200
+input_feed: 1
+
+batch_size: 32
+epochs: 25
+patience: 3
+
+optim: adam
+learning_rate: 0.001
+
+dropout: 0.4

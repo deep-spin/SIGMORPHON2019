@@ -1,0 +1,30 @@
+global_attention_function: sparsemax
+loss: sparsemax
+
+world_size: 1
+gpu_ranks: 0
+
+brnn: true
+rnn_size: 200
+word_vec_size: 180
+infl_vec_size: 180
+lang_vec_size: 20
+lang_rep: feature
+
+input_feed: 1
+
+batch_size: 64
+epochs: 30
+patience: 3
+
+optim: adam
+learning_rate: 0.001
+
+dropout: 0.3
+
+inflection_attention: true
+inflection_rnn: true
+inflection_rnn_layers: 1
+inflection_gate: sparsemax
+
+layers: 2
